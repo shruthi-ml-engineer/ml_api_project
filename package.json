@@ -1,0 +1,14 @@
+{
+  "name": "python-ml-project",
+  "version": "1.0.0",
+  "description": "Python ML project wrapper",
+  "scripts": {
+    "dev": "python main.py",
+    "build": "python -m py_compile main.py train_model.py",
+    "start": "python main.py",
+    "install": "pip install -r requirements.txt"
+  },
+  "keywords": ["python", "machine-learning"],
+  "author": "",
+  "license": "MIT"
+}
